@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 20.625rem;
+    border-radius: 20px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.mp3 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.info h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #1f2f56;
+    margin: 20px 0 14px 0;
+}
+
+.info p {
+    font-size: 13px;
+    color: #7A7F92;
+    margin: 1em 0 1em 0;
+}
+
+.music {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: #f5f7ff;
+    padding: 1rem 1.6rem;
+    align-items: center;
+}
+
+.music h2, .music p {
+    font-size: 13px;
+    padding-left: 0.5rem;
+    margin: 0;
+    color: #1f2f56;
+    display: flex;
+}
+
+.music p {
+    color: #7280a7;
+}
+
+.music a {
+    padding-left: 1rem;
+    font-weight: 700;
+    flex-grow: 0;
+}
+
+.music img {
+    width: 50px;
+    height: 50px;
+}
+
+.buttonBuy{
+    padding-top: 2rem;
+    display: block;
+}
+
+.buttonBuy a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #3829e0;
+    font-weight: 700;
+    padding: 0.5rem 3rem;
+    border-radius: 0.6rem;
+}
+
+.cancel{
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.cancel a{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 0.5rem;
+}
